@@ -1,4 +1,6 @@
-import data.Plan;
+package src.main.java._105_planFinder;
+
+import src.main.java._105_planFinder.data.Plan;
 
 import java.util.*;
 import java.util.stream.Collectors;

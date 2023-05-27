@@ -1,10 +1,12 @@
 Find the best plan
 
 Say a telecom company offers different plans.
-    PLAN1,100,voice,email
-    PLAN2,150,email,database,admin
-    PLAN3,125,voice,admin
-    PLAN4,135,database,admin
+    plan name,  amount, features
+    ----------  ------  --------------------
+    PLAN1:      100     voice,email
+    PLAN2:      150     email,database,admin
+    PLAN3:      125     voice,admin
+    PLAN4:      135     database,admin
 
 If user wants (email, voice, admin):
 (PLAN1, PLAN2):         100 + 150       =   $250

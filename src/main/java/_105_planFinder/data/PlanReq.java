@@ -1,4 +1,4 @@
-package data;
+package src.main.java._105_planFinder.data;
 
 import java.util.List;
 

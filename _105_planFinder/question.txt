@@ -1,0 +1,26 @@
+Find the best plan
+
+Say a telecom company offers different plans.
+    PLAN1,100,voice,email
+    PLAN2,150,email,database,admin
+    PLAN3,125,voice,admin
+    PLAN4,135,database,admin
+
+If user wants (email, voice, admin):
+(PLAN1, PLAN2):         100 + 150       =   $250
+(PLAN1, PLAN3):         100 + 125       =   $225
+(PLAN2, PLAN3):         150 + 125       =   $275
+(PLAN1, PLAN4):         100 + 135       =   $235
+(PLAN2, PLAN3, PLAN4) = 150 + 125 + 135 =   $410
+
+And the minimum price is $225, PLAN1 + PLAN3.
+Write an algorithm to find it.
+
+
+
+
+
+
+
+
+
